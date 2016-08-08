@@ -1,3 +1,7 @@
+// Creating stacks only using the .length property
+// Assumes the base is the last item in array
+// Difficulty: 2/5
+
 function Stack() {
   var items = [];
 
