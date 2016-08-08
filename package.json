@@ -1,0 +1,12 @@
+{
+  "name": "data_structs_algorithms",
+  "version": "1.0.0",
+  "description": "learning data stuctures and algorithms",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stephen Mayeux",
+  "license": "MIT"
+}
