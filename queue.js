@@ -17,6 +17,10 @@ function Queue() {
     return items.length === 0;
   };
 
+  this.clear = function() {
+    items = [];
+  };
+
   this.size = function() {
     return items.length;
   };
