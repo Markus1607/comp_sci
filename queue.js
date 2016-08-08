@@ -30,3 +30,11 @@ function Queue() {
   };
 
 }
+
+// run examples
+
+var queue = new Queue();
+queue.enqueue('John');
+queue.enqueue('Jack');
+queue.print();
+console.log(queue.isEmpty());
