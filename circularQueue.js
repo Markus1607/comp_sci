@@ -16,7 +16,9 @@ function hotPotato(nameList, num) {
     eliminated = queue.dequeue();
     console.log(eliminated + ' was eliminated!');
   }
+
   return queue.dequeue();
+  
 }
 
 var names = ['Steve', 'Tanya', 'CJ', 'Keith', 'Kathrim', 'Charlie'];
