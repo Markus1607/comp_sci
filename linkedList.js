@@ -89,11 +89,11 @@ function LinkedList() {
   };
 
   this.isEmpty = function() {
-
+    return length === 0;
   };
 
   this.size = function() {
-
+    return length;
   };
 
   this.toString = function() {
@@ -108,7 +108,7 @@ function LinkedList() {
     return string;
   };
 
-  this.print = function() {
-
+  this.getHead = function() {
+    return head;
   };
 }
