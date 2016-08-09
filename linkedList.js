@@ -70,11 +70,22 @@ function LinkedList() {
   };
 
   this.remove = function(element) {
-
+    var index = this.indexOf(element);
+    return this.removeAt(index);
   };
 
   this.indexOf = function(element) {
+    var current = head;
+    var index = 0;
 
+    while (current) {
+      if (element === current.element) {
+        return index;
+      }
+      index++;
+      current = current.next;
+    }
+    return -1;
   };
 
   this.isEmpty = function() {
