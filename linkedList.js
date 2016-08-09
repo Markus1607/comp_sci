@@ -8,7 +8,19 @@ function LinkedList() {
   var head = null;
 
   this.append = function(element) {
+    var node = new Node(element);
+    var current;
 
+    if (head === null) {
+      head = node;
+    } else {
+      current = head;
+      while (current.next) {
+        current = current.next;
+      }
+      current.next = node;
+    }
+    length++;
   };
 
   this.insert = function(position, element) {
